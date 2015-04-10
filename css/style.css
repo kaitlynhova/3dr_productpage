@@ -199,6 +199,7 @@ a .clearance-area{
   padding-bottom: 15px;
   margin-bottom: 15px;
   margin-top: 100px;
+  letter-spacing: 2px;
 }
 
 .product-image{
@@ -206,11 +207,26 @@ a .clearance-area{
   max-width: 700px;
 }
 
-.buy-meow{
+.buy-meow {
   color: white;
   background: #333333;
   padding: 17px;
   max-width: 101px;
+  transition: .5s;
+}
+
+.buy-meow a {
+  color: white;
+  text-decoration: none;
+}
+
+.buy-meow a:hover {
+  opacity: .7;
+  text-decoration: none !important;
+}
+
+.availability{
+  padding-bottom: 20px;
 }
 
 .buy-meow:hover{
@@ -224,6 +240,10 @@ a .clearance-area{
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#product-description{
+  padding-top: 50px;
 }
 
 .product-description-image{
