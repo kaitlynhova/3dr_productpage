@@ -204,14 +204,13 @@ a .clearance-area{
 
 .product-image{
   width: 100%;
-  max-width: 700px;
 }
 
 .buy-meow {
   color: white;
   background: #333333;
   padding: 17px;
-  max-width: 101px;
+  max-width: 111px;
   transition: .5s;
 }
 
@@ -220,16 +219,16 @@ a .clearance-area{
   text-decoration: none;
 }
 
-.buy-meow a:hover {
+.buy-meow:hover {
   opacity: .7;
-  text-decoration: none !important;
+  text-decoration-color: transparent !important;
 }
 
 .availability{
   padding-bottom: 20px;
 }
 
-.buy-meow:hover{
+.no-underline{
   text-decoration: none !important;
 }
 
@@ -262,7 +261,7 @@ a .clearance-area{
 /* MOBILE STYLES */
 
 @media screen and (max-width: 990px) {
-  #product-hero h3{
+  #product-hero .product-name{
         margin-top: 0px;
     }
 }
