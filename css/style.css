@@ -186,6 +186,12 @@ a .clearance-area{
 
 #product-hero{
   background:#eee;
+  padding-bottom:50px;
+}
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
 }
 
 #product-hero .product-name{
@@ -209,6 +215,27 @@ a .clearance-area{
 
 .buy-meow:hover{
   text-decoration: none !important;
+}
+
+/*PRODUCT DESCRIPTION STYLES */
+
+.gray-title{
+  color: gray;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.product-description-image{
+  width: 100%;
+  padding-top: 70px;
+}
+
+.half-controller{
+  background-image: url('../product-images/controller-full-width.jpg');
+  height: 500px;
+  background-position: -808px 0px;
+  background-repeat: no-repeat;
 }
 
 
