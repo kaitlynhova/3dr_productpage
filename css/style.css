@@ -19,6 +19,7 @@ a :hover
 {
   color: white !important;
   opacity: .7;
+  text-decoration: none;
 }
 
 /* HEADER STYLES */
@@ -178,4 +179,43 @@ a .clearance-area{
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
+}
+
+
+/* PRODUCT PAGE STYLES!!!! */
+
+#product-hero{
+  background:#eee;
+}
+
+#product-hero .product-name{
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+
+.product-image{
+  width: 100%;
+  max-width: 700px;
+}
+
+.buy-meow{
+  color: white;
+  background: #333333;
+  padding: 17px;
+  max-width: 101px;
+}
+
+.buy-meow:hover{
+  text-decoration: none !important;
+}
+
+
+/* MOBILE STYLES */
+
+@media screen and (max-width: 990px) {
+  #product-hero h3{
+        margin-top: 0px;
+    }
 }
