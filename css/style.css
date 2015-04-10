@@ -1,0 +1,181 @@
+/* GENERAL STYLES*/
+
+ul{
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+
+.row {
+   margin-right: 0px;
+   margin-left: 0px;
+}
+
+a
+{
+  color: white;
+}
+
+a :hover
+{
+  color: white !important;
+  opacity: .7;
+}
+
+/* HEADER STYLES */
+.top-brand{
+  max-width: 70px;
+  position: relative;
+  top: -4px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: black;
+}
+
+.navbar-default {
+  background-color: black;
+  border-color: black;
+  border-radius: 0;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+#product-list{
+  display: none;
+  background: black;
+  padding: 50px;
+
+}
+
+/* CONTENT STYLE */
+#content{
+  height: 500px;
+}
+
+/* FOOTER STYLES */
+
+footer{
+  background: black;
+  color: white;
+  padding: 70px;
+}
+
+footer ul{
+  padding-bottom: 50px;
+}
+
+
+
+
+/* HOME PAGE STYLES*/
+
+/* HERO STYLES */
+
+#hero{
+  background: black;
+  padding-bottom: 75px;
+}
+
+#hero .solo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+}
+
+#hero .title{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 200px;
+}
+
+#hero .buy-now{
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  width: 1000%;
+  max-width: 185px;
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+#hero .buy-now:hover{
+  background: #85c441;
+  border: 1px solid #85c441;
+
+}
+
+/* CATEGORY STYLES */
+
+#categories{
+  color: white;
+  background: black;
+  text-align: center;
+}
+
+#categories h3{
+  position: relative;
+  top: 45%;
+}
+
+a .diy-area{
+  color:white !important;
+  transition: .5s;
+}
+
+.diy-area{
+  background-image: url('../images/X8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.category:hover{
+  opacity: .7;
+}
+
+a .parts-area{
+  color:white !important;
+  transition: .5s;
+}
+.parts-area{
+  background-image: url('../images/parts.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+a .merch-area{
+  color:white !important;
+  transition: .5s;
+}
+
+.merch-area{
+  background-image: url('../images/shirt.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+a .clearance-area{
+  color:white !important;
+  transition: .5s;
+}
+
+.clearance-area{
+  background-image: url('../images/unnamed.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
