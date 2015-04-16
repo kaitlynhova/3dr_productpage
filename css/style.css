@@ -209,9 +209,38 @@ a .clearance-area{
   width: 100%;
 }
 
-.buy-meow {
+#frequency-button-area{
+  width: 100%;
+  max-width: 223px;
+  position: relative;
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: -15px;
+}
+
+.frequency-button-two{
+  left: -20px;
+  position: relative;
+}
+
+.frequency-button{
+  color: #333333;
+  border: 1px solid #333333;
+  padding: 11px;
+  max-width: 82px;
+  transition: .5s;
+  background: none;
+}
+
+.frequency-button:hover{
   color: white;
   background: #333333;
+}
+
+.buy-meow {
+  color: white;
+  background: #5FBE8C;
   padding: 17px;
   max-width: 111px;
   transition: .5s;
@@ -229,6 +258,7 @@ a .clearance-area{
 
 .availability{
   padding-bottom: 20px;
+  padding-top: 18px;
 }
 
 .no-underline{
