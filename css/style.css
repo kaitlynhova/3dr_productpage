@@ -190,8 +190,7 @@ a .clearance-area{
 }
 
 .carousel-control {
-  padding-top:10%;
-  width:5%;
+ padding-top: 5%;
 }
 
 #product-hero .product-name{
@@ -255,6 +254,39 @@ a .clearance-area{
   height: 500px;
   background-position: -808px 0px;
   background-repeat: no-repeat;
+}
+
+/* SLIDER STYLES */
+
+.carousel {
+	margin-bottom: 0;
+}
+
+.carousel-control {
+
+}
+.carousel-control.right {
+
+}
+
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+
+#myCarousel .fa{
+
+  font-size: 41px;
+}
+
+.carousel-indicators .active {
+background: #333333;
 }
 
 
