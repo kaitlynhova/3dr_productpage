@@ -288,6 +288,8 @@ a .clearance-area{
 #myCarousel .fa{
   font-size: 41px;
   color: white;
+  position: relative;
+  top: 105px;
 }
 
 #myCarousel a{
@@ -312,4 +314,20 @@ background: #333333;
   #product-hero .product-name{
         margin-top: 0px;
     }
+  #myCarousel .fa{
+    font-size: 41px;
+    color: white;
+    position: relative;
+    top:70px;
+  }
+
+}
+
+@media only screen and (min-width : 1200px) {
+  #myCarousel .fa{
+    font-size: 41px;
+    color: white;
+    position: relative;
+    top:60px;
+  }
 }
