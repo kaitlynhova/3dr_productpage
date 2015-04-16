@@ -230,6 +230,11 @@ a .clearance-area{
   background-position: center;
   border: 5px solid #eee;
   background-color: white;
+  transition: .5s;
+}
+
+.preview-photos:hover{
+  opacity: .7;
 }
 
 
