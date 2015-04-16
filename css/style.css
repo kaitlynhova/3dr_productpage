@@ -238,6 +238,11 @@ a .clearance-area{
   background: #333333;
 }
 
+.active-button{
+  color: white;
+  background: #333333;
+}
+
 .buy-meow {
   color: white;
   background: #5FBE8C;
