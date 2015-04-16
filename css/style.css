@@ -60,6 +60,10 @@ a :hover
   height: 500px;
 }
 
+.thumbnail{
+  border: 0;
+}
+
 /* FOOTER STYLES */
 
 footer{
@@ -274,6 +278,7 @@ a .clearance-area{
 	top: auto;
 	bottom: 0px;
 	margin-right: -19px;
+  position: relative;
 }
 
 .carousel-indicators li {
@@ -281,8 +286,19 @@ a .clearance-area{
 }
 
 #myCarousel .fa{
-
   font-size: 41px;
+  color: white;
+}
+
+#myCarousel a{
+  color: #333333;
+  text-align:center;
+  transition: 1s;
+  text-decoration: none;
+}
+
+#myCarousel a:hover {
+  opacity: .7;
 }
 
 .carousel-indicators .active {
