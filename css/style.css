@@ -209,6 +209,32 @@ a .clearance-area{
   width: 100%;
 }
 
+
+/* PRODUCT IMAGES */
+
+#photo-one{
+ background-image: url('../product-images/1.jpg');
+ height:75px;
+ background-size:cover;
+}
+
+#photo-two{
+  background-image: url('../product-images/2.jpg');
+  height:75px;
+  background-size:cover;
+}
+
+#photo-three{
+  background-image: url('../product-images/3.jpg');
+  height:75px;
+  background-size:cover;
+}
+#photo-four{
+  background-image: url('../product-images/4.jpg');
+  height:75px;
+  background-size:cover;
+}
+
 #frequency-button-area{
   width: 100%;
   max-width: 223px;
