@@ -343,6 +343,8 @@ a .clearance-area{
 
 .carousel {
 	margin-bottom: 0;
+  background: #f1f1f1;
+  padding-top: 15px;
 }
 
 .carousel-control {
